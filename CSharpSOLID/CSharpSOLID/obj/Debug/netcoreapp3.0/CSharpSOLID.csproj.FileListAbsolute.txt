@@ -1,0 +1,11 @@
+/Users/leonce/Documents/github/RegainControlOnCSharp/CSharpSOLID/CSharpSOLID/bin/Debug/netcoreapp3.0/CSharpSOLID
+/Users/leonce/Documents/github/RegainControlOnCSharp/CSharpSOLID/CSharpSOLID/bin/Debug/netcoreapp3.0/CSharpSOLID.deps.json
+/Users/leonce/Documents/github/RegainControlOnCSharp/CSharpSOLID/CSharpSOLID/bin/Debug/netcoreapp3.0/CSharpSOLID.runtimeconfig.json
+/Users/leonce/Documents/github/RegainControlOnCSharp/CSharpSOLID/CSharpSOLID/bin/Debug/netcoreapp3.0/CSharpSOLID.runtimeconfig.dev.json
+/Users/leonce/Documents/github/RegainControlOnCSharp/CSharpSOLID/CSharpSOLID/bin/Debug/netcoreapp3.0/CSharpSOLID.dll
+/Users/leonce/Documents/github/RegainControlOnCSharp/CSharpSOLID/CSharpSOLID/bin/Debug/netcoreapp3.0/CSharpSOLID.pdb
+/Users/leonce/Documents/github/RegainControlOnCSharp/CSharpSOLID/CSharpSOLID/obj/Debug/netcoreapp3.0/CSharpSOLID.csprojAssemblyReference.cache
+/Users/leonce/Documents/github/RegainControlOnCSharp/CSharpSOLID/CSharpSOLID/obj/Debug/netcoreapp3.0/CSharpSOLID.AssemblyInfoInputs.cache
+/Users/leonce/Documents/github/RegainControlOnCSharp/CSharpSOLID/CSharpSOLID/obj/Debug/netcoreapp3.0/CSharpSOLID.AssemblyInfo.cs
+/Users/leonce/Documents/github/RegainControlOnCSharp/CSharpSOLID/CSharpSOLID/obj/Debug/netcoreapp3.0/CSharpSOLID.dll
+/Users/leonce/Documents/github/RegainControlOnCSharp/CSharpSOLID/CSharpSOLID/obj/Debug/netcoreapp3.0/CSharpSOLID.pdb
