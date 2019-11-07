@@ -1,20 +1,17 @@
 ﻿<Properties StartupConfiguration="{5C445979-5A27-4E84-9844-C775F9D57A0E}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="CSharpSOLID/Classes/Verlan.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="CSharpSOLID/Classes/StringManager.cs">
     <Files>
-      <File FileName="CSharpSOLID/Program.cs" Line="19" Column="97" />
-      <File FileName="CSharpSOLID/Classes/Palindrome.cs" Line="23" Column="22" />
-      <File FileName="CSharpSOLID/Classes/ListManager.cs" Line="46" Column="51" />
-      <File FileName="CSharpSOLID/Classes/InverseSentence.cs" Line="23" Column="20" />
-      <File FileName="CSharpSOLID/Classes/Verlan.cs" Line="10" Column="10" />
+      <File FileName="CSharpSOLID/Program.cs" Line="18" Column="64" />
+      <File FileName="CSharpSOLID/Classes/ListManager.cs" Line="44" Column="11" />
+      <File FileName="CSharpSOLID/Classes/StringManager.cs" Line="43" Column="23" />
+      <File FileName="CSharpSOLID/Classes/LetterStruct.cs" Line="7" Column="24" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="CSharpSOLID" expanded="True">
             <Node name="CSharpSOLID" expanded="True">
-              <Node name="Classes" expanded="True">
-                <Node name="Verlan.cs" selected="True" />
-              </Node>
+              <Node name="Classes" expanded="True" />
             </Node>
           </Node>
         </State>

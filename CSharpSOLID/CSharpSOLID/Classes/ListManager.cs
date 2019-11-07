@@ -9,10 +9,15 @@ namespace CSharpSOLID.Classes
         {
         }
 
+        /**
+         * Get the couple of integer which the sum equals the value desired
+         * param List of integers and the value wanted
+         * return list of a couple of integers
+         */
         public List<Tuple<int, int>> PairList(List<int> l, int value)
         {
             var result = new List<Tuple<int, int>>();
-            if (l!= null)
+            if (l != null)
             {
                 for (int i = 0; i < l.Count; i++)
                 {
@@ -28,6 +33,11 @@ namespace CSharpSOLID.Classes
             return result;
         }
 
+        /**
+         * Get the couple of integer which the sum equals the value
+         * param List of integers and the value wanted
+         * return here a string with a couple of integers
+         */
         public string PairListString(List<int> l, int value)
         {
             var result = new StringBuilder();
@@ -53,6 +63,11 @@ namespace CSharpSOLID.Classes
             return result.ToString();
         }
 
+        /**
+         * get back the first occurrence which the occurence is pair on the list
+         * param List of integers
+         * return int or null
+         */
         public int? FirstOccurrence(List<int> l)
         {
             if (l != null)
@@ -64,7 +79,7 @@ namespace CSharpSOLID.Classes
                     {
                         if (i == l[j]) count++;
                     }
-                    if (count == 2) return i;
+                    if (count % 2 == 0) return i;
                 }
             }
             return null;
