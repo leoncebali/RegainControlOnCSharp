@@ -1,2 +1,2 @@
 # RegainControlOnCSharp
-Few C# codes based on SOLID principle
+Few C# exercices code based on SOLID principle
