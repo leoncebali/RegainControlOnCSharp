@@ -119,5 +119,30 @@ namespace CSharpSOLID.Classes
             }
             return ls;
         }
+
+        /**
+         * First character which appears one time
+         * param string
+         * return char or null
+         */
+        public char? FirstCharacter(string s)
+        {
+            if (!string.IsNullOrEmpty(s))
+            {
+                foreach(char c in s)
+                {
+                    int count = 0;
+                    if (char.IsLetter(c)) 
+                    {
+                        for (int i = 0; i < s.Length; i++)
+                        {
+                            if (c == s[i]) count++;
+                        }
+                    }
+                    if (count == 1) return c;
+                }
+            }
+            return null;
+        }
     }
 }

@@ -10,7 +10,7 @@ namespace CSharpSOLID.Classes
         }
 
         /**
-         * Get the couple of integer which the sum equals the value desired
+         * Couple of integer which the sum equals the value desired
          * param List of integers and the value wanted
          * return list of a couple of integers
          */
@@ -25,7 +25,8 @@ namespace CSharpSOLID.Classes
                     {
                         if (l[i] + l[j] == value)
                         {
-                            result.Add(new Tuple<int, int>(l[i], l[j]));
+                            if(!result.Contains(new Tuple<int, int>(l[i], l[j])) && !result.Contains(new Tuple<int, int>(l[j], l[i])))
+                                result.Add(new Tuple<int, int>(l[i], l[j]));
                         }
                     }
                 }
@@ -34,7 +35,7 @@ namespace CSharpSOLID.Classes
         }
 
         /**
-         * Get the couple of integer which the sum equals the value
+         * Couple of integer which the sum equals the value
          * param List of integers and the value wanted
          * return here a string with a couple of integers
          */
@@ -64,7 +65,7 @@ namespace CSharpSOLID.Classes
         }
 
         /**
-         * get back the first occurrence which the occurence is pair on the list
+         * The first occurrence which the occurence is pair on the list
          * param List of integers
          * return int or null
          */
@@ -83,6 +84,18 @@ namespace CSharpSOLID.Classes
                 }
             }
             return null;
+        }
+
+        public void GreaterList(List<int> l)
+        {
+            if (l != null)
+            {
+                for (int i = 0; i < l.Count - 1; i++)
+                {
+                    if (l[i] > l[i + 1]) Console.WriteLine(l[i]);
+                }
+                Console.WriteLine(l[l.Count - 1]);
+            }
         }
     }
 }
